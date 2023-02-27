@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+    /* width: 100%; */
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+th,
+td {
+    padding: 10px 25px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: #5F9EA0;
+    color: white;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.editar,
+.eliminar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.editar:hover,
+.eliminar:hover {
+    background-color: #3e8e41;
+}
+
+.eliminar {
+    background-color: #f44336;
+}
+
+.eliminar:hover {
+    background-color: #da190b;
+}
